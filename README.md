@@ -57,7 +57,6 @@ To develop a machine learning model that predicts the likelihood of a customer d
 
 ## Results
 
-- The final model achieved a **ROC-AUC score of [Your Score]** on the test set.
 - The model successfully identified high-risk customers, helping Home Credit reduce the risk of loan defaults.
 
 ## Key Insights
