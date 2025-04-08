@@ -6,8 +6,8 @@ This project is part of the **Home Credit Default Risk** competition hosted on K
 
 ## Project Details
 
-- **Project Name:** Home Credit Default Risk Prediction
-- **Author:** [Aarohi Verma]
+- **Project Name:** Default Risk Prediction
+- **Author:** Aarohi Verma
 - **Kaggle Competition Link:** [Home Credit Default Risk](https://www.kaggle.com/c/home-credit-default-risk)
 - **Dataset:** Multiple CSV files provided by Home Credit, including application records, bureau records, previous loan details, and more, offering a comprehensive view of customers' credit histories and personal information.
 
@@ -51,9 +51,6 @@ To develop a machine learning model that predicts the likelihood of a customer d
    - Compared the performance of different models to select the best one.
    - Analyzed feature importance to understand key predictors of default.
 
-### 6. Model Deployment (Optional)
-   - Saved the trained model using joblib for future predictions.
-   - Developed a pipeline for real-time predictions based on incoming customer data.
 
 ## Results
 
@@ -71,21 +68,6 @@ To develop a machine learning model that predicts the likelihood of a customer d
 - Managing class imbalance in the target variable (more non-defaults than defaults).
 - Ensuring model generalization to unseen data to prevent overfitting.
 
-## Future Work
-
-- **Incorporate additional data sources:** Using external financial data or social media data to improve prediction accuracy.
-- **Advanced Modeling:** Experimenting with deep learning models such as neural networks.
-- **Feature Selection:** Implementing advanced techniques like Recursive Feature Elimination (RFE) for optimal feature selection.
-- **Real-time Prediction Pipeline:** Developing an API for real-time scoring of new loan applications.
-
-## Known Issues
-
-- High multicollinearity among certain features.
-- The model requires further tuning to handle edge cases more effectively.
-
-## Conclusion
-
-The Home Credit Default Risk prediction project demonstrates the application of data science and machine learning techniques in financial risk management. By accurately predicting default risk, financial institutions can improve their decision-making processes, enhance customer experience, and minimize financial losses.
 
 ## Acknowledgements
 
